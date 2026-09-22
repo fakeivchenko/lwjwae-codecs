@@ -1,0 +1,13 @@
+{
+  "reflection": [
+    {
+      "type": "dev.ivchenko.lwjwae.codec.jsonb.JsonbBridgeCodec",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    }
+  ]
+}

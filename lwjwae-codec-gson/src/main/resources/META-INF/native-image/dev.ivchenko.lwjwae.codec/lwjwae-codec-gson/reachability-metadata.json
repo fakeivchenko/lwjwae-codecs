@@ -1,0 +1,13 @@
+{
+  "reflection": [
+    {
+      "type": "dev.ivchenko.lwjwae.codec.gson.GsonBridgeCodec",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    }
+  ]
+}
