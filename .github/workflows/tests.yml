@@ -41,11 +41,11 @@ jobs:
           java-version: 25
       - uses: gradle/actions/setup-gradle@v6
 
-      - name: Install GTK, WebKitGTK, and Xvfb
+      - name: Install GTK, WebKitGTK, Xvfb, and ImageMagick
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends libgtk-3-0t64 libwebkit2gtk-4.1-0 libxtst6 xvfb
+          sudo apt-get install -y --no-install-recommends libgtk-3-0t64 libwebkit2gtk-4.1-0 libxtst6 xvfb imagemagick
 
       - name: Style and headless tests
         run: ./gradlew spotlessCheck checkstyleMain checkstyleTest test
